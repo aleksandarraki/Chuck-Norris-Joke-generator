@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(7, 133, 165);
 }
 
 .wrapper {
@@ -12,6 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
 }
 
 .container {
@@ -63,4 +65,5 @@ body {
     background-color: rgb(241, 237, 237);
     border-radius: 5px;
     font-size: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
 }
