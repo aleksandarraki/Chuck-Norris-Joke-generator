@@ -7,6 +7,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     background-color: rgb(207, 203, 203);
     padding: 20px;
@@ -51,7 +58,7 @@ body {
     transition: all 200ms ease;
 }
 
-.jokeDiv {
+#jokeDiv {
     margin: 40px;
     background-color: rgb(241, 237, 237);
     border-radius: 5px;
