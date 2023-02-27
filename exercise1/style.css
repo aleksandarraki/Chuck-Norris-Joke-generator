@@ -5,8 +5,11 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(7, 133, 165);
+    background: rgb(7, 133, 165);
+    background: linear-gradient(to right bottom, rgb(7, 133, 165) 50%, white 50%);
+
 }
+
 
 
 .wrapper {
